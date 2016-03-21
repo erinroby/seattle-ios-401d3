@@ -20,8 +20,10 @@
 	* **Bonus:**
 		* Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).
   * [Class 3:](class-3/)
-  	* Create a third menu item profileViewController that shows the logged in users StackOverflow information. Implement this view controller WITHOUT ARC.   
-    * PROJECT WEEK IDEAs!!!
+  	* Create a third menu item profileViewController that shows the logged in users StackOverflow information. Implement this view controller WITHOUT ARC.
+      * This ViewController should display the User's profileImage, Name, and reputation.
+    * Use KVO in your project.
+    * PROJECT WEEK IDEA's!
 	* **Code Challenge:**
 		*
 	* **Bonus:**
@@ -29,12 +31,11 @@
   * [Class 4:](class-4/)
     * Create one of your classes in Swift, and use it side by side with your Objetive-C classes
     * Convert your TableViewCell to a Nib to reuse in both of your TableView's
+      * User Nib should have a user's profile image, nameLabel, and reputation.
+      * Question Nib should have title, owner's name, and isAnswered label.
 	* **Code Challenge:**
 		* Create a BinarySearchTree Class
 	* **Bonus:**
 		*
   * [Class 5:](class-5/)
   	* **Potential Guest Speakers:**
-
-#####Weekly Bonus:
-*
