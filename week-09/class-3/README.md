@@ -1,11 +1,12 @@
 #Week 9 - Class 3
-* Create a third menu item profileViewController that shows the logged in users StackOverflow information.
-  * This ViewController should display the User's profileImage, Name, and reputation.
-  * Use GCD and dispatch_queue's to load the images from profileImageURL.
 * Implement KVO somewhere in your project.
 * Convert your TableViewCell to a Nib to reuse in both of your TableView's
   * User Nib should have a user's profile image, nameLabel, and reputation.
   * Question Nib should have title, owner's name, and isAnswered label.
+  * Use GCD and dispatch_queue's to load the images from profileImageURL.
+* **Bonus:**
+  * Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).
+  
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
 * [Grading Rubrics](../../Resources/)

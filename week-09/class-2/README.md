@@ -5,8 +5,7 @@
 * implement 2 GET requests to search for questions and users with searchTerm.
   * Add a searchBar to each viewController's tableView.
   * Searches should display results in the tableView.
-* **Bonus:**
-	* Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).  
+ 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
 * [Grading Rubrics](../../Resources/)
