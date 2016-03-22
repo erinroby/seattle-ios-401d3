@@ -5,8 +5,6 @@
 	* When selecting dates, users should not be allowed to select dates in the past for the start date.
 	* Users should also not be able to book an end date before a start date.
 		* Present an alert for the user if they attempt the above.
-* **Code Challenge:**
-	*
 * **Bonus:**
 	* Setup an application flow that allows you to query for room availability from a fromDate and toDate range. Users should be able to book a reservation based on the availability.
 
