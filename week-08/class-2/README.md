@@ -1,8 +1,7 @@
 #Week 8 - Class 2
 * Seed your data base with the JSON payload provided
-* Implement Book functionality.
-	* Guests should be able to set both, the start and end reservation dates, specify the room they want and finally book it.
-		* Guest name is required... feel free to add more requirements.
+* Implement Book functionality. Guests should be able to set both, the start and end reservation dates, specify the room they want and finally book it.
+	* Guest name is required... feel free to add more requirements.
 	* When selecting dates, users should not be allowed to select dates in the past for the start date.
 	* Users should also not be able to book an end date before a start date.
 		* Present an alert for the user if they attempt the above.
