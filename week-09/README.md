@@ -4,38 +4,31 @@
 
   * [Class 1:](class-1/)
   	* Create your burger menu via a custom container controller. Setup both a burger button and slide recognizer.
+    * Create your QuestionSearchViewController and UserSearchViewController
+      * Implementation can stay empty for today.
     * Using WKWebView, implement the OAuth workflow to get an auth token from StackOverflow API
     * Create your own custom NSError domain and error codes.
     * Implement NSKeyedArchiever to save the access_token to Keychain securely instead of NSUserDefaults.
-	* **Code Challenge:**
-		*
-	* **Bonus:**
   * [Class 2:](class-2/)
-  	* Use Cocoapods to get AFNetworking installed in your app
+  	* Use CocoaPods to get AFNetworking installed in your app
     * Use AFNetworking to make all HTTP requests instead of directly using NSURLSession or NSURLConnection from Apple
-    * Use GCD for all things you would normally do with NSOperationQueue
-    * Perform a GET request to search for questions with searchTerm and display the questions in a tableView.
-	* **Code Challenge:**
-		*
+      * Implement tableView's on both the QuestionSearchViewController and UserSearchViewController.
+    * implement 2 GET requests to search for questions and users with searchTerm.
+      * Add a searchBar to each viewController's tableView.
+      * Searches should display results in the tableView.
 	* **Bonus:**
 		* Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).
   * [Class 3:](class-3/)
-  	* Create a third menu item profileViewController that shows the logged in users StackOverflow information. Implement this view controller WITHOUT ARC.
+  	* Create a third menu item profileViewController that shows the logged in users StackOverflow information.
       * This ViewController should display the User's profileImage, Name, and reputation.
-    * Use KVO in your project.
-    * PROJECT WEEK IDEA's!
-	* **Code Challenge:**
-		*
-	* **Bonus:**
-		*
-  * [Class 4:](class-4/)
-    * Create one of your classes in Swift, and use it side by side with your Objetive-C classes
+      * Use GCD and dispatch_queue's to load the images from profileImageURL.
+    * Implement KVO somewhere in your project.
     * Convert your TableViewCell to a Nib to reuse in both of your TableView's
       * User Nib should have a user's profile image, nameLabel, and reputation.
       * Question Nib should have title, owner's name, and isAnswered label.
+  * [Class 4:](class-4/)
+    * Group Project Time!
 	* **Code Challenge:**
-		* Create a BinarySearchTree Class
-	* **Bonus:**
-		*
+		* Implement a BinarySearchTree Class
   * [Class 5:](class-5/)
-  	* **Potential Guest Speakers:**
+  	* **Guest Speakers:**

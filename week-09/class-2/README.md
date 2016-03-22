@@ -1,12 +1,12 @@
 #Week 9 - Class 2
-* Use Cocoapods to get AFNetworking installed in your app
+* Use CocoaPods to get AFNetworking installed in your app
 * Use AFNetworking to make all HTTP requests instead of directly using NSURLSession or NSURLConnection from Apple
-* Use GCD for all things you would normally do with NSOperationQueue
-* Perform a GET request to search for questions with searchTerm and display the questions in a tableView.
-* **Code Challenge:**
-*
+  * Implement tableView's on both the QuestionSearchViewController and UserSearchViewController.
+* implement 2 GET requests to search for questions and users with searchTerm.
+  * Add a searchBar to each viewController's tableView.
+  * Searches should display results in the tableView.
 * **Bonus:**
-* Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).
+	* Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).  
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
 * [Grading Rubrics](../../Resources/)
