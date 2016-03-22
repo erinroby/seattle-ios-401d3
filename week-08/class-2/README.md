@@ -5,6 +5,10 @@
 	* When selecting dates, users should not be allowed to select dates in the past for the start date.
 	* Users should also not be able to book an end date before a start date.
 		* Present an alert for the user if they attempt the above.
+* Add Attributes to your ManagedObjectModel.
+* Change your Guest model accordingly to have firstName, lastName, and email address.
+* Update UI to include fields for lastName and email in BookVC and setup constraints.
+* Assign lastName and email to guest.
 * **Bonus:**
 	* Setup an application flow that allows you to query for room availability from a fromDate and toDate range. Users should be able to book a reservation based on the availability.
 
