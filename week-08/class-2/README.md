@@ -9,8 +9,6 @@
 * Change your Guest model accordingly to have firstName, lastName, and email address.
 * Update UI to include fields for lastName and email in BookVC and setup constraints.
 * Assign lastName and email to guest.
-* **Bonus:**
-	* Setup an application flow that allows you to query for room availability from a fromDate and toDate range. Users should be able to book a reservation based on the availability.
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
