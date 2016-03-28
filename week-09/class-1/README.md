@@ -4,7 +4,7 @@
 	* Implementation can stay empty for today.
 * Using WKWebView, implement the OAuth workflow to get an auth token from StackOverflow API
 * Create your own custom NSError domain and error codes.
-* Implement NSKeyedArchiever to save the access_token to Keychain securely instead of NSUserDefaults.
+* Implement Keychain to save the access_token securely instead of NSUserDefaults.
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

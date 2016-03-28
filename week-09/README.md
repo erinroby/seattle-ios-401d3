@@ -8,7 +8,7 @@
       * Implementation can stay empty for today.
     * Using WKWebView, implement the OAuth workflow to get an auth token from StackOverflow API
     * Create your own custom NSError domain and error codes.
-    * Implement NSKeyedArchiever to save the access_token to Keychain securely instead of NSUserDefaults.
+    * Implement Keychain to save the access_token securely instead of NSUserDefaults.
   * [Class 2:](class-2/)
   	* Use CocoaPods to get AFNetworking installed in your app
     * Use AFNetworking to make all HTTP requests instead of directly using NSURLSession or NSURLConnection from Apple
