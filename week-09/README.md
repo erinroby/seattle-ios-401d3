@@ -18,15 +18,15 @@
       * Searches should display results in the tableView.
   * [Class 3:](class-3/)
     * Implement KVO somewhere in your project.
-    * Convert your TableViewCell to a Nib to reuse in both of your TableView's
+    * Convert your TableViewCell to a Nib to use in your TableView's
       * User Nib should have a user's profile image, nameLabel, and reputation.
       * Question Nib should have title, owner's name, and isAnswered label.
       * Use GCD and dispatch_queue's to load the images from profileImageURL.
     * **Bonus:**
       * Using Dispatch groups, show an alert view once all images have been downloaded (The downloads should be waterfall style, not lazy!).
+      * Using the endpoint `/me`, do another fetch, add a 3rd ViewController to the containerViewController, and display the logged in users's data.
   * [Class 4:](class-4/)
     * Group Project Time!
 	* **Code Challenge:**
 		* Implement a BinarySearchTree Class
   * [Class 5:](class-5/)
-  	* **Guest Speakers:**
